@@ -11,19 +11,28 @@ const Navbar = () => {
             </Link>
 
             <nav className="mr-1" id="navBarResponsive">
-                <Link to="/" className="p-5 text-dark nav__link">
+                <Link to="/" className="p-5 text-dark nav__link nav-link">
                     Home
                 </Link>
-                <Link to="/resources" className="p-3 text-dark nav__link">
+                <Link
+                    to="/resources"
+                    className="p-3 text-dark nav__link nav-link active"
+                >
                     Resources
                 </Link>
-                <Link to="/communities" className="p-3 text-dark nav__link">
+                <Link
+                    to="/communities"
+                    className="p-3 text-dark nav__link nav-link"
+                >
                     Communities
                 </Link>
-                <Link to="/oss" className="p-3 text-dark nav__link">
+                <Link to="/oss" className="p-3 text-dark nav__link nav-link">
                     Open Source Projects
                 </Link>
-                <Link to="/open-data" className="p-3 text-dark nav__link">
+                <Link
+                    to="/open-data"
+                    className="p-3 text-dark nav__link nav-link"
+                >
                     Open Data
                 </Link>
             </nav>
