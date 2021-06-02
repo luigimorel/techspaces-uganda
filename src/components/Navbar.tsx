@@ -2,41 +2,71 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className="d-flex flex-column flex-md-row align-items-center nav__bar p-5 px-md-1  mb-3  box-shadow">
-            <Link
-                to="/"
-                className="my-0 mr-md-auto font-weight-normal name__logo"
-            >
-                Techspaces Uganda
-            </Link>
-
-            <nav className="mr-1" id="navBarResponsive">
-                <Link to="/" className="p-5 text-dark nav__link nav-link">
-                    Home
+        <nav
+            className="navbar navbar-expand-lg bg-white bg-secondary  fixed-top"
+            id="navBarResponsive"
+        >
+            <div className="container">
+                <Link to="/" className="navbar-brand">
+                    Techspaces Uganda
                 </Link>
-                <Link
-                    to="/resources"
-                    className="p-3 text-dark nav__link nav-link active"
+                <button
+                    className="navbar-toggler  font-weight-bold bg-primary text-white "
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
                 >
-                    Resources
-                </Link>
-                <Link
-                    to="/communities"
-                    className="p-3 text-dark nav__link nav-link"
-                >
-                    Communities
-                </Link>
-                <Link to="/oss" className="p-3 text-dark nav__link nav-link">
-                    Open Source Projects
-                </Link>
-                <Link
-                    to="/open-data"
-                    className="p-3 text-dark nav__link nav-link"
-                >
-                    Open Data
-                </Link>
-            </nav>
-        </div>
+                    <i className="fas fa-bars"></i>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item mx-2 ">
+                            <Link
+                                to="/"
+                                className="nav-link py-3 px-0 px-lg-3 "
+                            >
+                                Home
+                            </Link>
+                        </li>
+                        <li className="nav-item mx-2 ">
+                            <Link
+                                to="/resources"
+                                className="nav-link py-3 px-0 px-lg-3 "
+                            >
+                                Resources
+                            </Link>
+                        </li>
+                        <li className="nav-item mx-2 ">
+                            <Link
+                                to="/communities"
+                                className="nav-link py-3 px-0 px-lg-3 "
+                            >
+                                Communities
+                            </Link>
+                        </li>
+                        <li className="nav-item mx-2 ">
+                            <Link
+                                to="/oss"
+                                className="nav-link py-3 px-0 px-lg-3 "
+                            >
+                                Open Source Projects
+                            </Link>
+                        </li>
+                        <li className="nav-item mx-2 ">
+                            <Link
+                                to="/open-data"
+                                className="nav-link py-3 px-0 px-lg-3 "
+                            >
+                                Open Data
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     );
 };
 
