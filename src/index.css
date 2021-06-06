@@ -17,3 +17,12 @@ a {
 .nav-link {
     color: #000000;
 }
+
+/* Styles for the footer */
+.jumbotron {
+    background-color: antiquewhite;
+}
+
+li {
+    text-decoration: none;
+}

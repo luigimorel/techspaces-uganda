@@ -1,5 +1,11 @@
+import Navbar from '../components/Navbar';
+
 const Resources = () => {
-    return <div>This is the resources file </div>;
+    return (
+        <>
+            <Navbar />
+        </>
+    );
 };
 
 export default Resources;

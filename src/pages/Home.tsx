@@ -1,3 +1,4 @@
+import PageHeading from '../components/PageHeading';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Reasons from '../components/Reasons';
@@ -11,6 +12,7 @@ const Home = () => {
             <div className="container mt-auto">
                 <Hero />
                 <Reasons />
+                <PageHeading />
             </div>
         </>
     );
