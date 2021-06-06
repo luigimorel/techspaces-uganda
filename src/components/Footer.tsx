@@ -1,6 +1,8 @@
 const Footer = () => {
+    const date = new Date();
+    const year = date.getFullYear();
     return (
-        <div className="container ">
+        <div className="container mt-4">
             <div className="row">
                 <div className="col-md-4">
                     <p className="leading ml-3b footer__para">
@@ -32,6 +34,9 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <p className="leading text-center mx-3">
+                &copy; TechSpaces Uganda {year}
+            </p>
         </div>
     );
 };
