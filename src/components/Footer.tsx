@@ -1,9 +1,9 @@
-const PageHeading = () => {
+const Footer = () => {
     return (
         <div className="container">
             <div className="row">
                 <div className="col-md-4">
-                    <p className="leading">
+                    <p className="leading ml-3">
                         This is the text that will be used to talk about the
                         final web page
                     </p>
@@ -36,4 +36,4 @@ const PageHeading = () => {
     );
 };
 
-export default PageHeading;
+export default Footer;
