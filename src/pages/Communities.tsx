@@ -1,7 +1,13 @@
-import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const Communities = () => {
-    return <div>This is the communtues pags.</div>;
+    return (
+        <div>
+            <Navbar />
+            <Footer />
+        </div>
+    );
 };
 
 export default Communities;

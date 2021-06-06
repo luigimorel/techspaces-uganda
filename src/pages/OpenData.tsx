@@ -1,10 +1,11 @@
-import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const OpenData = () => {
     return (
         <div>
-            This is the open data page that has links to the data that can be
-            used by the pople that need it
+            <Navbar />
+            <Footer />
         </div>
     );
 };

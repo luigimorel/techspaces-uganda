@@ -1,9 +1,9 @@
 const Footer = () => {
     return (
-        <div className="container">
+        <div className="container ">
             <div className="row">
                 <div className="col-md-4">
-                    <p className="leading ml-3">
+                    <p className="leading ml-3b footer__para">
                         This is the text that will be used to talk about the
                         final web page
                     </p>
