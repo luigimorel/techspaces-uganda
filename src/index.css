@@ -18,10 +18,12 @@ a {
     color: #000000;
 }
 
-/* Styles for the footer */
-.jumbotron {
-    background-color: antiquewhite;
+/* Styles for the hero section on the home page */
+.hero {
+    height: fit-content;
 }
+
+/* Styles for the footer */
 
 li {
     text-decoration: none;
@@ -29,4 +31,10 @@ li {
 
 .footer__para {
     width: 180px;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-color: red;
+    height: 150px;
 }

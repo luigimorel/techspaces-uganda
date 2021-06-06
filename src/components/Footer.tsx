@@ -11,6 +11,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="col-md-4">
+                    <h4 className="heading text-center">Useful Links</h4>
                     <ul className="list-group">
                         <li className="list-item">Home</li>
                         <li className="list-item">Home</li>
