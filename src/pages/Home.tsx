@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import Reasons from '../components/Reasons';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             </div>
             <div className="container mt-auto">
                 <Hero />
+                <Reasons />
             </div>
         </>
     );
