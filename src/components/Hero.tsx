@@ -9,11 +9,11 @@ const Hero = () => {
                 quibusdam. Quam eveniet nam minima facere dolore placeat
                 recusandae commodi aspernatur!
             </p>
-            <p className="lead">
-                <Link to="#" className="btn btn-secondary btn-lg">
+            <button className="hero__btn">
+                <Link to="#/" className="hero__link">
                     Learn More
                 </Link>
-            </p>
+            </button>
         </main>
     );
 };

@@ -19,8 +19,19 @@ a {
 }
 
 /* Styles for the hero section on the home page */
+
 .hero {
     height: fit-content;
+}
+
+.hero__btn {
+    background-color: red;
+    margin: auto 0;
+}
+
+.hero__link {
+    color: white;
+    margin: 0 auto;
 }
 
 /* Styles for the footer */
@@ -34,6 +45,7 @@ li {
 }
 
 /* Jumbotron styles */
+
 .jumbotron {
     background-color: red;
     height: 150px;
