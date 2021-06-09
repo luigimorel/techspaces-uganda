@@ -25,8 +25,9 @@ a {
 }
 
 .hero__btn {
-    background-color: red;
+    background-color: rgb(253, 242, 242);
     margin: auto 0;
+    color: whitesmoke;
 }
 
 .hero__link {
