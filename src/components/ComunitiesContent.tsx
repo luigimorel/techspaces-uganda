@@ -15,9 +15,11 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Deleniti necessitatibus, in
-                                aut hic iste quaerat.
+                                <a href="link">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Deleniti necessitatibus,
+                                    in aut hic iste quaerat.
+                                </a>
                             </p>
                         </div>
                         <div className="link__container ">
@@ -42,9 +44,11 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Deleniti necessitatibus, in
-                                aut hic iste quaerat.
+                                <a href="link">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Deleniti necessitatibus,
+                                    in aut hic iste quaerat.
+                                </a>
                             </p>
                         </div>
                         <div className="link__container">
@@ -69,9 +73,11 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Deleniti necessitatibus, in
-                                aut hic iste quaerat.
+                                <a href="link">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Deleniti necessitatibus,
+                                    in aut hic iste quaerat.
+                                </a>
                             </p>
                         </div>
                         <div className="link__container">
@@ -98,9 +104,11 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Deleniti necessitatibus, in
-                                aut hic iste quaerat.
+                                <a href="link">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Deleniti necessitatibus,
+                                    in aut hic iste quaerat.
+                                </a>
                             </p>
                         </div>
                         <div className="link__container">
@@ -125,9 +133,11 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Deleniti necessitatibus, in
-                                aut hic iste quaerat.
+                                <a href="link">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Deleniti necessitatibus,
+                                    in aut hic iste quaerat.
+                                </a>
                             </p>
                         </div>
                         <div className="link__container">
@@ -152,9 +162,11 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Deleniti necessitatibus, in
-                                aut hic iste quaerat.
+                                <a href="link">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Deleniti necessitatibus,
+                                    in aut hic iste quaerat.
+                                </a>
                             </p>
                         </div>
                         <div className="link__container">
