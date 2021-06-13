@@ -1,14 +1,17 @@
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo-tech.png';
 
 const Navbar = () => {
     return (
-        <nav
-            className="navbar navbar-expand-lg bg-white bg-secondary    mb-2"
-            id="navBarResponsive"
-        >
+        <nav className="navbar navbar-expand-lg    " id="navBarResponsive">
             <div className="container">
                 <Link to="/" className="navbar-brand">
-                    Techspaces Uganda
+                    <img
+                        src={logo}
+                        width="200"
+                        height="auto"
+                        alt="Techspaces Uganda"
+                    />
                 </Link>
                 <button
                     className="navbar-toggler  font-weight-bold bg-primary text-white "
@@ -23,14 +26,6 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ms-auto">
-                        <li className="nav-item mx-2 ">
-                            <Link
-                                to="/"
-                                className="nav-link py-3 px-0 px-lg-3 "
-                            >
-                                Home
-                            </Link>
-                        </li>
                         <li className="nav-item mx-2 ">
                             <Link
                                 to="/resources"

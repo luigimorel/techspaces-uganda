@@ -9,17 +9,18 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 a {
     text-decoration: none;
-    color: #000000;
 }
 
 /* Navbar styles */
 
 .nav-link {
-    color: #000000;
+    color: #fff;
 }
 
 /* Styles for the hero section on the home page */
@@ -42,7 +43,12 @@ a {
 /* Styles for the footer */
 
 li {
-    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer__container {
+    height: 300px;
+    margin-top: 10rem;
 }
 
 .footer__para {
@@ -53,5 +59,19 @@ li {
 
 .jumbotron {
     background-color: whitesmoke;
-    height: 150px;
+    height: 309px;
+    background-color: #25c2a0;
+}
+
+/* Resources content */
+.resources__section {
+    margin-top: 2rem;
+}
+
+.resources__row {
+    margin: 2rem auto;
+}
+
+.resources__thumbnail {
+    width: auto;
 }
