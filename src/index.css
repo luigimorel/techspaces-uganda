@@ -1,38 +1,43 @@
 /* Global styles */
-/* 
-*1. #25c2a0
-2. #606770
-*/
+
+:root {
+    --primaryDark: #000000;
+    --primaryWhite: #ffffff;
+    --mainColor: #25c2a0;
+}
+
 *,
 body,
 html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--primaryDark);
+    color: var(--primaryWhite);
 }
 
 a {
     text-decoration: none;
+    color: var(--primaryWhite);
+    font-weight: 600;
 }
 
 a:hover {
-    color: #25c2a0;
+    color: var(--mainColor);
 }
 
 li.nav-link:hover {
-    color: #25c2a0;
+    color: var(--mainColor);
 }
 /* Navbar styles */
 
 .nav-link {
-    color: #fff;
+    color: var(--primaryWhite);
     font-weight: 600;
 }
 
 .nav-link:hover {
-    color: #25c2a0;
+    color: var(--mainColor);
 }
 
 /* Styles for the hero section on the home page */
@@ -50,6 +55,24 @@ li.nav-link:hover {
 .hero__link {
     color: white;
     margin: 0 auto;
+}
+
+/* Styles for the communities page */
+
+.link__container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.connect__link {
+    padding: 0.5rem;
+}
+
+.card {
+    box-shadow: 1px 1px 2px var(--primaryWhite),
+        -1px -1px 2px var(--primaryWhite) !important;
+    background-color: var(--primaryDark);
 }
 
 /* Styles for the footer */
@@ -72,18 +95,18 @@ li {
 }
 
 .footer__link {
-    color: white;
+    color: var(--primaryWhite);
 }
 
 .footer__link:hover {
-    color: #25c2a0;
+    color: var(--mainColor);
 }
 
 /* Jumbotron styles */
 
 .jumbotron {
     height: 309px;
-    background-color: #25c2a0;
+    background-color: var(--mainColor);
 }
 
 /* Resources content */

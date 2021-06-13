@@ -28,14 +28,6 @@ const Navbar = () => {
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item mx-2 ">
                             <Link
-                                to="/resources"
-                                className="nav-link py-3 px-0 px-lg-3 "
-                            >
-                                Resources
-                            </Link>
-                        </li>
-                        <li className="nav-item mx-2 ">
-                            <Link
                                 to="/communities"
                                 className="nav-link py-3 px-0 px-lg-3 "
                             >
@@ -56,6 +48,14 @@ const Navbar = () => {
                                 className="nav-link py-3 px-0 px-lg-3 "
                             >
                                 Open Data
+                            </Link>
+                        </li>
+                        <li className="nav-item mx-2 ">
+                            <Link
+                                to="/resources"
+                                className="nav-link py-3 px-0 px-lg-3 "
+                            >
+                                Resources
                             </Link>
                         </li>
                     </ul>

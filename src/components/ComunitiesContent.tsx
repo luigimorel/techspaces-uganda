@@ -20,22 +20,15 @@ const CommunitiesContent = () => {
                                 aut hic iste quaerat.
                             </p>
                         </div>
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card" style={{ width: '18rem' }}>
-                        <img
-                            loading="lazy"
-                            className="card-img-top "
-                            src={placeholder}
-                            alt="Card cap"
-                        />
-                        <div className="card-body">
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Deleniti necessitatibus, in
-                                aut hic iste quaerat.
-                            </p>
+                        <div className="link__container ">
+                            <a
+                                href="link"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="connect__link"
+                            >
+                                Link
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -53,6 +46,43 @@ const CommunitiesContent = () => {
                                 adipisicing elit. Deleniti necessitatibus, in
                                 aut hic iste quaerat.
                             </p>
+                        </div>
+                        <div className="link__container">
+                            <a
+                                href="link"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="connect__link"
+                            >
+                                Link
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img
+                            loading="lazy"
+                            className="card-img-top "
+                            src={placeholder}
+                            alt="Card cap"
+                        />
+                        <div className="card-body">
+                            <p className="card-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Deleniti necessitatibus, in
+                                aut hic iste quaerat.
+                            </p>
+                        </div>
+                        <div className="link__container">
+                            <a
+                                href="link"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="connect__link"
+                            >
+                                Link
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -73,22 +103,15 @@ const CommunitiesContent = () => {
                                 aut hic iste quaerat.
                             </p>
                         </div>
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card" style={{ width: '18rem' }}>
-                        <img
-                            loading="lazy"
-                            className="card-img-top "
-                            src={placeholder}
-                            alt="Card cap"
-                        />
-                        <div className="card-body">
-                            <p className="card-text">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Deleniti necessitatibus, in
-                                aut hic iste quaerat.
-                            </p>
+                        <div className="link__container">
+                            <a
+                                href="link"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="connect__link"
+                            >
+                                Link
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -106,6 +129,43 @@ const CommunitiesContent = () => {
                                 adipisicing elit. Deleniti necessitatibus, in
                                 aut hic iste quaerat.
                             </p>
+                        </div>
+                        <div className="link__container">
+                            <a
+                                href="link"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="connect__link"
+                            >
+                                Link
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card" style={{ width: '18rem' }}>
+                        <img
+                            loading="lazy"
+                            className="card-img-top "
+                            src={placeholder}
+                            alt="Card cap"
+                        />
+                        <div className="card-body">
+                            <p className="card-text">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Deleniti necessitatibus, in
+                                aut hic iste quaerat.
+                            </p>
+                        </div>
+                        <div className="link__container">
+                            <a
+                                href="link"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="connect__link"
+                            >
+                                Link
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -60,7 +60,12 @@ const Footer = () => {
                         <h4 className="heading ">Social Links</h4>
                         <div className="row">
                             <i className="fas fas-github mb-3">
-                                <a href="https://github.com/CodeForUganda/techies-uganda">
+                                <a
+                                    className="footer__link"
+                                    href="https://github.com/CodeForUganda/techies-uganda"
+                                    rel="noreferrer"
+                                    target="_blank"
+                                >
                                     Github
                                 </a>
                             </i>
