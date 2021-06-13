@@ -5,7 +5,7 @@ const Footer = () => {
     const year = date.getFullYear();
 
     return (
-        <div className="footer__container">
+        <div className="footer__container mb-4">
             <div
                 style={{
                     margin: ' 2rem 7rem',
@@ -24,21 +24,34 @@ const Footer = () => {
                     <div className="col-md-4">
                         <h4 className="heading ">Useful Links</h4>
                         <ul className="list-group">
-                            <li className="list-item">
-                                <Link to="/">Home </Link>
+                            <li className="list-item mb-3">
+                                <Link className="footer__link" to="/">
+                                    Home
+                                </Link>
                             </li>
 
-                            <li className="list-item">
-                                <Link to="/resources">Resources</Link>
+                            <li className="list-item mb-3">
+                                <Link className="footer__link" to="/resources">
+                                    Resources
+                                </Link>
                             </li>
-                            <li className="list-item">
-                                <Link to="/communities">Communities</Link>
+                            <li className="list-item mb-3">
+                                <Link
+                                    className="footer__link"
+                                    to="/communities"
+                                >
+                                    Communities
+                                </Link>
                             </li>
-                            <li className="list-item">
-                                <Link to="/oss">Open Source Projects</Link>
+                            <li className="list-item mb-3">
+                                <Link className="footer__link" to="/oss">
+                                    Open Source Projects
+                                </Link>
                             </li>
-                            <li className="list-item">
-                                <Link to="/open-data">Open Data</Link>
+                            <li className="list-item mb-3">
+                                <Link className="footer__link" to="/open-data">
+                                    Open Data
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -46,19 +59,15 @@ const Footer = () => {
                     <div className="col-md-4">
                         <h4 className="heading ">Social Links</h4>
                         <div className="row">
-                            <i className="fas fas-facebook mb-3">
-                                <a href="#">social link</a>
-                            </i>
-                            <i className="fas fas-facebook mb-3">
-                                <a href="#">social link</a>
-                            </i>
-                            <i className="fas fas-facebook mb-3">
-                                <a href="#">social link</a>
+                            <i className="fas fas-github mb-3">
+                                <a href="https://github.com/CodeForUganda/techies-uganda">
+                                    Github
+                                </a>
                             </i>
                         </div>
                     </div>
                 </div>
-                <p className="leading text-center mt-5">
+                <p className="leading text-center copyright mt-5 mb-3">
                     &copy; TechSpaces Uganda {year}
                 </p>
             </div>

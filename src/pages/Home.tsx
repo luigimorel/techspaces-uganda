@@ -5,16 +5,12 @@ import Reasons from '../components/Reasons';
 
 const Home = () => {
     return (
-        <>
-            <div className="container mb-4">
-                <Navbar />
-            </div>
-            <div className="container mt-auto hero">
-                <Hero />
-                <Reasons />
-                <Footer />
-            </div>
-        </>
+        <div>
+            <Navbar />
+            <Hero />
+            <Reasons />
+            <Footer />
+        </div>
     );
 };
 

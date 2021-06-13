@@ -1,17 +1,17 @@
 import placeholder from './../assets/img-placeholder.png';
 
-const ResourcesContent = () => {
+const CommunitiesContent = () => {
     return (
-        <div className="container resources__section">
+        <div className="container ">
             {/* TO DO: Find a way of reducing the duplication */}
             <div className="row resources__row">
                 <div className="col-md-4">
                     <div className="card" style={{ width: '18rem' }}>
                         <img
                             loading="lazy"
-                            className="card-img-top resource__thumbnail"
+                            className="card-img-top "
                             src={placeholder}
-                            alt="Content  cap"
+                            alt="Card cap"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -26,9 +26,9 @@ const ResourcesContent = () => {
                     <div className="card" style={{ width: '18rem' }}>
                         <img
                             loading="lazy"
-                            className="card-img-top resource__thumbnail"
+                            className="card-img-top "
                             src={placeholder}
-                            alt="Content  cap"
+                            alt="Card cap"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -43,9 +43,9 @@ const ResourcesContent = () => {
                     <div className="card" style={{ width: '18rem' }}>
                         <img
                             loading="lazy"
-                            className="card-img-top resource__thumbnail"
+                            className="card-img-top "
                             src={placeholder}
-                            alt="Content  cap"
+                            alt="Card cap"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -62,9 +62,9 @@ const ResourcesContent = () => {
                     <div className="card" style={{ width: '18rem' }}>
                         <img
                             loading="lazy"
-                            className="card-img-top resource__thumbnail"
+                            className="card-img-top "
                             src={placeholder}
-                            alt="Content  cap"
+                            alt="Card cap"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -79,9 +79,9 @@ const ResourcesContent = () => {
                     <div className="card" style={{ width: '18rem' }}>
                         <img
                             loading="lazy"
-                            className="card-img-top resource__thumbnail"
+                            className="card-img-top "
                             src={placeholder}
-                            alt="Content  cap"
+                            alt="Card cap"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -96,9 +96,9 @@ const ResourcesContent = () => {
                     <div className="card" style={{ width: '18rem' }}>
                         <img
                             loading="lazy"
-                            className="card-img-top resource__thumbnail"
+                            className="card-img-top "
                             src={placeholder}
-                            alt="Content  cap"
+                            alt="Card cap"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -114,4 +114,4 @@ const ResourcesContent = () => {
     );
 };
 
-export default ResourcesContent;
+export default CommunitiesContent;

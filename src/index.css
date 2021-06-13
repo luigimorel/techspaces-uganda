@@ -17,10 +17,22 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #25c2a0;
+}
+
+li.nav-link:hover {
+    color: #25c2a0;
+}
 /* Navbar styles */
 
 .nav-link {
     color: #fff;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #25c2a0;
 }
 
 /* Styles for the hero section on the home page */
@@ -53,6 +65,18 @@ li {
 
 .footer__para {
     width: 180px;
+}
+
+.copyright {
+    font-weight: bold;
+}
+
+.footer__link {
+    color: white;
+}
+
+.footer__link:hover {
+    color: #25c2a0;
 }
 
 /* Jumbotron styles */
