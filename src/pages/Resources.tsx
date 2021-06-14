@@ -1,7 +1,7 @@
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import PageHeading from '../components/PageHeading';
-import ResourcesContent from '../components/ResourcesContent';
+import ResourcesContent from '../components/content/ResourcesContent';
 
 const Resources = () => {
     return (

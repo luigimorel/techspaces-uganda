@@ -3,7 +3,10 @@ import logo from '../assets/logo-tech.png';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg    " id="navBarResponsive">
+        <nav
+            className="navbar navbar-expand-lg sticky-top"
+            id="navBarResponsive"
+        >
             <div className="container">
                 <Link to="/" className="navbar-brand">
                     <img
@@ -24,7 +27,10 @@ const Navbar = () => {
                 >
                     <i className="fas fa-bars"></i>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarResponsive">
+                <div
+                    className="colla0000000pse navbar-collapse"
+                    id="navbarResponsive"
+                >
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item mx-2 ">
                             <Link

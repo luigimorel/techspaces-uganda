@@ -1,4 +1,4 @@
-import CommunitiesContent from '../components/ComunitiesContent';
+import CommunitiesContent from '../components/content/ComunitiesContent';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import PageHeading from '../components/PageHeading';
