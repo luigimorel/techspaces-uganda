@@ -17,12 +17,14 @@ const Footer = () => {
             <div className="container ">
                 <div className="row mb-3">
                     <div className="col-md-4">
-                        <img
-                            src={logo}
-                            width="200"
-                            height="auto"
-                            alt="Techspaces Uganda logo"
-                        />
+                        <Link to="/">
+                            <img
+                                src={logo}
+                                width="200"
+                                height="auto"
+                                alt="Techspaces Uganda logo"
+                            />
+                        </Link>
                         <p className="leading footer__para  ">
                             Bridging the Ugandan tech eco-system into one place.{' '}
                         </p>
