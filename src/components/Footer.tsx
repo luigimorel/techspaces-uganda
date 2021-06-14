@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo-tech.png';
 
 const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
 
     return (
-        <div className="footer__container mb-4">
+        <div className="footer__container mb-5">
             <div
                 style={{
                     margin: ' 2rem 7rem',
@@ -16,23 +17,22 @@ const Footer = () => {
             <div className="container ">
                 <div className="row mb-3">
                     <div className="col-md-4">
-                        <p className="leading ml-3b footer__para">
-                            This is the text that will be used to talk about the
-                            final web page
+                        <img
+                            src={logo}
+                            width="200"
+                            height="auto"
+                            alt="Techspaces Uganda logo"
+                        />
+                        <p className="leading footer__para  ">
+                            Bridging the Ugandan tech eco-system into one place.{' '}
                         </p>
                     </div>
                     <div className="col-md-4">
-                        <h4 className="heading ">Useful Links</h4>
+                        <h4 className="heading mb-4">Useful Links</h4>
                         <ul className="list-group">
                             <li className="list-item mb-3">
                                 <Link className="footer__link" to="/">
                                     Home
-                                </Link>
-                            </li>
-
-                            <li className="list-item mb-3">
-                                <Link className="footer__link" to="/resources">
-                                    Resources
                                 </Link>
                             </li>
                             <li className="list-item mb-3">
@@ -53,11 +53,16 @@ const Footer = () => {
                                     Open Data
                                 </Link>
                             </li>
+                            <li className="list-item mb-3">
+                                <Link className="footer__link" to="/resources">
+                                    Resources
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
                     <div className="col-md-4">
-                        <h4 className="heading ">Social Links</h4>
+                        <h4 className="heading mb-4">Social Links</h4>
                         <div className="row">
                             <i className="fas fas-github mb-3">
                                 <a
@@ -72,7 +77,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className="leading text-center copyright mt-5 mb-3">
+                <p className="leading text-center copyright mb-5">
                     &copy; TechSpaces Uganda {year}
                 </p>
             </div>

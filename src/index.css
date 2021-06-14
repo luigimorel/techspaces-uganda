@@ -74,6 +74,11 @@ li.nav-link:hover {
     background-color: var(--primaryDark);
 }
 
+@media screen and (max-width: 768px) {
+    .resource {
+        margin-bottom: 1rem;
+    }
+}
 /* Styles for the footer */
 
 li {
@@ -86,7 +91,7 @@ li {
 }
 
 .footer__para {
-    width: 180px;
+    width: 200px;
 }
 
 .copyright {
@@ -104,7 +109,8 @@ li {
 /* Jumbotron styles */
 
 .jumbotron {
-    height: 309px;
+    height: 300px;
+    width: 100%;
     background-color: var(--mainColor);
 }
 
@@ -114,7 +120,9 @@ li {
 }
 
 .resources__row {
-    margin: 2rem auto;
+    margin: 2rem 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .resources__thumbnail {
