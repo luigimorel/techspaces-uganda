@@ -15,22 +15,12 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                <a href="link">
+                                <a href="link" target="_blank" rel="noreferrer">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Deleniti necessitatibus,
                                     in aut hic iste quaerat.
                                 </a>
                             </p>
-                        </div>
-                        <div className="link__container ">
-                            <a
-                                href="link"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="connect__link"
-                            >
-                                Link
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -44,22 +34,12 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                <a href="link">
+                                <a href="link" target="_blank" rel="noreferrer">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Deleniti necessitatibus,
                                     in aut hic iste quaerat.
                                 </a>
                             </p>
-                        </div>
-                        <div className="link__container">
-                            <a
-                                href="link"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="connect__link"
-                            >
-                                Link
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -73,22 +53,12 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                <a href="link">
+                                <a href="link" target="_blank" rel="noreferrer">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Deleniti necessitatibus,
                                     in aut hic iste quaerat.
                                 </a>
                             </p>
-                        </div>
-                        <div className="link__container">
-                            <a
-                                href="link"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="connect__link"
-                            >
-                                Link
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -104,22 +74,12 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                <a href="link">
+                                <a href="link" target="_blank" rel="noreferrer">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Deleniti necessitatibus,
                                     in aut hic iste quaerat.
                                 </a>
                             </p>
-                        </div>
-                        <div className="link__container">
-                            <a
-                                href="link"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="connect__link"
-                            >
-                                Link
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -133,22 +93,12 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                <a href="link">
+                                <a href="link" target="_blank" rel="noreferrer">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Deleniti necessitatibus,
                                     in aut hic iste quaerat.
                                 </a>
                             </p>
-                        </div>
-                        <div className="link__container">
-                            <a
-                                href="link"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="connect__link"
-                            >
-                                Link
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -162,22 +112,12 @@ const CommunitiesContent = () => {
                         />
                         <div className="card-body">
                             <p className="card-text">
-                                <a href="link">
+                                <a href="link" target="_blank" rel="noreferrer">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Deleniti necessitatibus,
                                     in aut hic iste quaerat.
                                 </a>
                             </p>
-                        </div>
-                        <div className="link__container">
-                            <a
-                                href="link"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="connect__link"
-                            >
-                                Link
-                            </a>
                         </div>
                     </div>
                 </div>

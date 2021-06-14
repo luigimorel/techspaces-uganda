@@ -19,7 +19,6 @@ html {
 a {
     text-decoration: none;
     color: var(--primaryWhite);
-    font-weight: 600;
 }
 
 a:hover {
@@ -70,8 +69,8 @@ li.nav-link:hover {
 }
 
 .card {
-    box-shadow: 1px 1px 2px var(--primaryWhite),
-        -1px -1px 2px var(--primaryWhite) !important;
+    box-shadow: 0.5px 0.5px 1px var(--primaryWhite),
+        0.5px 0.5px 1px var(--primaryWhite) !important;
     background-color: var(--primaryDark);
 }
 
