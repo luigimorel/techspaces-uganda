@@ -64,6 +64,10 @@ li.nav-link:hover {
     margin: 0 auto;
 }
 
+nav {
+    position: relative;
+}
+
 .connect__link {
     padding: 0.5rem;
 }
@@ -111,6 +115,7 @@ li {
 .jumbotron {
     height: 300px;
     width: 100%;
+    position: relative;
     background-color: var(--mainColor);
 }
 
