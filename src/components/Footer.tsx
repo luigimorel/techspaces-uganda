@@ -26,12 +26,12 @@ const Footer = () => {
                             />
                         </Link>
                         <p className="leading footer__para  ">
-                            Bridging the Ugandan tech eco-system into one place.{' '}
+                            Bringing the Ugandan tech eco-system into one place.{' '}
                         </p>
                     </div>
                     <div className="col-md-4">
-                        <h4 className="heading mb-4">Useful Links</h4>
-                        <ul className="list-group">
+                        <h5 className="heading mb-4 mt-4">Useful Links</h5>
+                        <ul className="list-group mt-2">
                             <li className="list-item mb-3">
                                 <Link className="footer__link" to="/">
                                     Home
@@ -64,7 +64,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col-md-4">
-                        <h4 className="heading mb-4">Social Links</h4>
+                        <h5 className="heading mb-4 mt-4">Social Links</h5>
                         <div className="row">
                             <i className="fas fas-github mb-3">
                                 <a
@@ -79,7 +79,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className="leading text-center copyright mb-5">
+                <p className=" text-center copyright  mt-1 mb-5 pb-5">
                     &copy; TechSpaces Uganda {year}
                 </p>
             </div>

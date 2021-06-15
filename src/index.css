@@ -12,13 +12,13 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--primaryDark);
-    color: var(--primaryWhite);
+    background-color: var(--primaryWhite);
+    color: var(--primaryDark);
 }
 
 a {
     text-decoration: none;
-    color: var(--primaryWhite);
+    color: var(--primaryDark);
 }
 
 a:hover {
@@ -31,7 +31,7 @@ li.nav-link:hover {
 /* Navbar styles */
 
 .nav-link {
-    color: var(--primaryWhite);
+    color: var(--primaryDark);
     font-weight: 600;
 }
 
@@ -96,6 +96,7 @@ li {
 
 .footer__para {
     width: 200px;
+    font-weight: 500;
 }
 
 .copyright {
@@ -103,7 +104,8 @@ li {
 }
 
 .footer__link {
-    color: var(--primaryWhite);
+    color: var(--primaryDark);
+    font-weight: 400;
 }
 
 .footer__link:hover {

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaAlignRight } from 'react-icons/fa';
 import logo from '../assets/logo-tech.png';
 
 const Navbar = () => {
@@ -10,26 +11,23 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navbar navbar-expand-md navbar-dark  ">
-            <Link to="/" className="navbar-brand">
+        <nav className="navbar navbar-expand-md">
+            <Link to="/" className="navbar-brand mx-3 mx-5-lg">
                 <img
                     src={logo}
                     width="200"
                     height="auto"
+                    className=""
                     alt="Techspaces Uganda"
                 />
             </Link>
             <button
-                className="navbar-toggler"
+                className="navbar-toggler mx-2"
                 type="button"
-                data-toggle="collapse"
-                data-target="#navbarCollapse"
-                aria-controls="navbarCollapse"
-                aria-expanded="false"
                 aria-label="Toggle navigation"
                 onClick={handleToggle}
             >
-                <span className="navbar-toggler-icon"></span>
+                <FaAlignRight />
             </button>
             <div
                 className={
