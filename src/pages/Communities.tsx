@@ -1,13 +1,15 @@
 import CommunitiesContent from '../components/content/ComunitiesContent';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import PageHeading from '../components/PageHeading';
 
 const Communities = () => {
     return (
         <div>
             <Navbar />
-            <PageHeading />
+            <div className="jumbotron text-center my-auto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium, tenetur.
+            </div>{' '}
             <CommunitiesContent />
             <Footer />
         </div>

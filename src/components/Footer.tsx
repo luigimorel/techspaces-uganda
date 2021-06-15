@@ -11,7 +11,7 @@ const Footer = () => {
                 style={{
                     margin: ' 2rem 7rem',
                     height: '2px',
-                    backgroundColor: '#fff',
+                    backgroundColor: '#000000',
                 }}
             ></div>
             <div className="container ">
