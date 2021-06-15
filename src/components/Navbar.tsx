@@ -30,9 +30,7 @@ const Navbar = () => {
                 <FaAlignRight />
             </button>
             <div
-                className={
-                    open ? 'navbar-collapse' : 'collapse navbar-collapse '
-                }
+                className={open ? 'navbar-collapse' : 'collapse  '}
                 id="navbarResponsive"
             >
                 <ul className="navbar-nav mx-auto">

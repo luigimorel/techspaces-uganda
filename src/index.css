@@ -4,6 +4,7 @@
     --primaryDark: #000000;
     --primaryWhite: #ffffff;
     --mainColor: #25c2a0;
+    --mainGrey: #f7f7f7;
 }
 
 *,
@@ -73,9 +74,7 @@ nav {
 }
 
 .card {
-    box-shadow: 0.5px 0.5px 1px var(--primaryWhite),
-        0.5px 0.5px 1px var(--primaryWhite) !important;
-    background-color: var(--primaryDark);
+    box-shadow: 0.5px 0.5px 1px var(--mainGrey), 0.5px 0.5px 1px var(--mainGrey) !important;
 }
 
 @media screen and (max-width: 768px) {
