@@ -11,7 +11,7 @@ const OSSContent = () => {
                             loading="lazy"
                             className="card-img-top "
                             src={placeholder}
-                            alt="Card cap"
+                            alt="Graphic content  for a resource"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -30,7 +30,7 @@ const OSSContent = () => {
                             loading="lazy"
                             className="card-img-top "
                             src={placeholder}
-                            alt="Card cap"
+                            alt="Graphic content  for a resource"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -49,7 +49,7 @@ const OSSContent = () => {
                             loading="lazy"
                             className="card-img-top "
                             src={placeholder}
-                            alt="Card cap"
+                            alt="Graphic content  for a resource"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -68,7 +68,7 @@ const OSSContent = () => {
                             loading="lazy"
                             className="card-img-top "
                             src={placeholder}
-                            alt="Card cap"
+                            alt="Graphic content  for a resource"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -87,7 +87,7 @@ const OSSContent = () => {
                             loading="lazy"
                             className="card-img-top "
                             src={placeholder}
-                            alt="Card cap"
+                            alt="Graphic content  for a resource"
                         />
                         <div className="card-body">
                             <p className="card-text">
@@ -106,7 +106,7 @@ const OSSContent = () => {
                             loading="lazy"
                             className="card-img-top "
                             src={placeholder}
-                            alt="Card cap"
+                            alt="Graphic content  for a resource"
                         />
                         <div className="card-body">
                             <p className="card-text">
