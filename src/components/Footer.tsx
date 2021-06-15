@@ -80,7 +80,15 @@ const Footer = () => {
                     </div>
                 </div>
                 <p className=" text-center copyright  mt-1 mb-5 pb-5">
-                    &copy; TechSpaces Uganda {year}
+                    Built with ❤ by{'  '}
+                    <a
+                        href="https://luigimorel.me"
+                        rel="noreferrer"
+                        target="_blank"
+                    >
+                        Luigi Morel {'    '}
+                    </a>
+                    {year}
                 </p>
             </div>
         </div>
