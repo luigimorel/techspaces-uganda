@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 const Hero = () => {
     return (
         <div className=" hero__section">
