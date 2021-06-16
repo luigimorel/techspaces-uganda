@@ -79,7 +79,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <p className=" text-center copyright  mt-1 mb-5 pb-5">
+                <p className=" text-center copyright  mt-5 mb-5 pb-5">
                     Built with ❤ by{'  '}
                     <a
                         href="https://luigimorel.me"

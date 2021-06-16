@@ -1,4 +1,4 @@
-/* Global styles */
+/* GLOBAL STYLES */
 
 :root {
     --primaryDark: #000000;
@@ -29,7 +29,8 @@ a:hover {
 li.nav-link:hover {
     color: var(--mainColor);
 }
-/* Navbar styles */
+
+/* NAVBAR STYLES */
 
 .nav-link {
     color: var(--primaryDark);
@@ -40,7 +41,7 @@ li.nav-link:hover {
     color: var(--mainColor);
 }
 
-/* Styles for the hero section on the home page */
+/* HERO SECTION STYLES */
 
 .hero {
     height: fit-content;
@@ -57,7 +58,11 @@ li.nav-link:hover {
     margin: 0 auto;
 }
 
-/* Styles for the communities page */
+.hero__section {
+    height: 100vh;
+}
+
+/* COMMUNITY PAGE  STYLES */
 
 .link__container {
     display: flex;
@@ -82,7 +87,8 @@ nav {
         margin-bottom: 1rem;
     }
 }
-/* Styles for the footer */
+
+/* FOOTER SECTION STYLES */
 
 li {
     list-style-type: none;
@@ -111,7 +117,7 @@ li {
     color: var(--mainColor);
 }
 
-/* Jumbotron styles */
+/* JUMBOTRON SECTION*/
 
 .jumbotron {
     height: 300px;
@@ -120,7 +126,8 @@ li {
     background-color: var(--mainColor);
 }
 
-/* Resources content */
+/* RESOURCE CONTENT STYLES */
+
 .resources__section {
     margin-top: 2rem;
 }
