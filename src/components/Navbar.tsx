@@ -12,12 +12,12 @@ const Navbar = () => {
 
     return (
         <nav className="navbar navbar-expand-md">
-            <Link to="/" className="navbar-brand mx-3 mx-5-lg">
+            <Link to="/" className="navbar-brand ">
                 <img
                     src={logo}
                     width="200"
                     height="auto"
-                    className=""
+                    className="logo__img"
                     alt="Techspaces Uganda"
                 />
             </Link>
