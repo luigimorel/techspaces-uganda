@@ -5,6 +5,7 @@
     --primaryWhite: #ffffff;
     --mainColor: #25c2a0;
     --mainGrey: #f7f7f7;
+    --heroColor: #efeded;
 }
 
 *,
@@ -41,6 +42,19 @@ li.nav-link:hover {
     color: var(--mainColor);
 }
 
+.navbar {
+    background-color: var(--primaryWhite);
+}
+@media screen and (max-width: 768px) {
+    .logo__img {
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 767px) {
+    .logo__img {
+        margin-left: 50px;
+    }
+}
 /* HERO SECTION STYLES */
 
 .hero {
@@ -58,36 +72,45 @@ li.nav-link:hover {
     margin: 0 auto;
 }
 
-.hero__section {
-    height: 100vh;
-    background: url('./assets/bg.svg');
-    background-position: center;
-    background-attachment: fixed;
-    color: var(--primaryWhite);
-    background-repeat: no-repeat;
-    background-color: var(--mainColor);
-    width: 100%;
-    opacity: 1;
-}
-
-section {
+.herotext__container {
     background: none;
-    color: white;
-    padding-top: 20%;
     align-items: center;
-    align-content: center;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 2rem;
+}
+.hero__section {
+    height: 522px;
+    background-color: var(--heroColor);
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
-.hero__section.container {
+.hero__para {
+    font-size: 60px;
+    background: none;
+    padding-top: 150px;
+    line-height: 56px;
+}
+
+.small__text {
+    background: none;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+i {
     background: none;
 }
 
-.hero__text {
-    margin: 100px auto;
+.hero__btn {
+    margin-top: 40px;
+    background-color: var(--mainColor);
+    border: 0;
+    font-size: 17px;
+    height: 56px;
+    width: 240px;
+    color: var(--primaryWhite);
+    font-weight: 600;
+    border-radius: 70px;
 }
 
 /* COMMUNITY PAGE  STYLES */
@@ -168,4 +191,21 @@ li {
 
 .resources__thumbnail {
     width: auto;
+}
+
+/* REASONS SECTION */
+.reason {
+    height: 44px;
+    width: 44px;
+    padding: px;
+    justify-content: center;
+    border-radius: 50%;
+
+    background-color: #25c2a0;
+    color: white;
+}
+
+.reason__container {
+    display: flex;
+    justify-content: center;
 }
