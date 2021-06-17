@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaAlignRight } from 'react-icons/fa';
-import logo from '../assets/logo-tech.png';
+import logo from '../assets/logo2.svg';
 
 const Navbar = () => {
     const [open, setOpen] = React.useState<boolean>(false);
