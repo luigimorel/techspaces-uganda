@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaAlignRight } from 'react-icons/fa';
-import logo from '../assets/logo-tech.png';
+import logo from '../assets/logo2.svg';
 
 const Navbar = () => {
     const [open, setOpen] = React.useState<boolean>(false);
@@ -12,12 +12,12 @@ const Navbar = () => {
 
     return (
         <nav className="navbar navbar-expand-md">
-            <Link to="/" className="navbar-brand mx-3 mx-5-lg">
+            <Link to="/" className="navbar-brand ">
                 <img
                     src={logo}
                     width="200"
                     height="auto"
-                    className=""
+                    className="logo__img"
                     alt="Techspaces Uganda"
                 />
             </Link>
