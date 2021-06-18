@@ -70,7 +70,7 @@ const Footer = () => {
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <FaGithub className="icon" />
+                                <FaGithub className="footer__icon" />
                             </a>
                         </div>
                     </div>

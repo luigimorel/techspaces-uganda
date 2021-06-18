@@ -269,6 +269,9 @@ li {
     color: var(--mainColor);
 }
 
+.footer__icon {
+    font-size: 40px;
+}
 @media screen and (max-width: 991px) {
     .main__footer__container .row {
         margin-left: 1rem;
@@ -348,7 +351,7 @@ li {
     background-image: url('./assets/sec-bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: sticky;
+    background-attachment: fixed;
 }
 
 /* VALUE PROPOSITION  */
@@ -373,7 +376,7 @@ li {
 
 .icon {
     margin: 10px 10px 10px 30px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .info__text {

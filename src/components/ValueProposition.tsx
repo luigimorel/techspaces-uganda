@@ -87,7 +87,7 @@ const ValueProposition = () => {
                                     <div className="layout my-4">
                                         <Fa500Px className="icon" />
                                         <p className="text-center">
-                                            Interactions
+                                            Collaborations{' '}
                                         </p>
                                     </div>
                                 </div>
