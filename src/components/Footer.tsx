@@ -7,17 +7,10 @@ const Footer = () => {
     const year = date.getFullYear();
 
     return (
-        <div className="footer__container mb-5">
-            <div
-                style={{
-                    margin: ' 2rem 7rem',
-                    height: '2px',
-                    backgroundColor: '#000000',
-                }}
-            ></div>
-            <div className="container ">
+        <div className="footer__container ">
+            <div className="container main__footer__container">
                 <div className="row mb-3">
-                    <div className="col-md-4">
+                    <div className="footer__section col-md-4">
                         <Link to="/">
                             <img
                                 src={logo}
@@ -30,9 +23,11 @@ const Footer = () => {
                             Bringing the Ugandan tech eco-system into one place.{' '}
                         </p>
                     </div>
-                    <div className="col-md-4">
-                        <h5 className="heading mb-3 ">Useful Links</h5>
-                        <ul className="list-group mt-2">
+                    <div className="footer__section col-md-4">
+                        <h5 className="heading mb-3 footer__heading ">
+                            Useful Links
+                        </h5>
+                        <ul className="list-group footer__ul mt-2">
                             <li className="list-item mb-3">
                                 <Link className="footer__link" to="/">
                                     Home
@@ -64,8 +59,10 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="col-md-4">
-                        <h5 className="heading mb-3 ">Social Links</h5>
+                    <div className="col-md-4 footer__section">
+                        <h5 className="heading mb-3 footer__heading">
+                            Social Links
+                        </h5>
                         <div className="row">
                             <a
                                 className="footer__link mb-3"
@@ -73,22 +70,25 @@ const Footer = () => {
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <FaGithub color="#25c2a0" />
+                                <FaGithub />
                             </a>
                         </div>
                     </div>
                 </div>
-                <p className=" text-center copyright  mt-5 mb-5 pb-5">
-                    Built with ❤ by{'  '}
-                    <a
-                        href="https://luigimorel.me"
-                        rel="noreferrer"
-                        target="_blank"
-                    >
-                        Luigi Morel {'    '}
-                    </a>
-                    {year}
-                </p>
+                <div className="container copyright__container">
+                    <p className=" text-center copyright  mt-5  pb-5">
+                        Built with ❤ by{'  '}
+                        <a
+                            href="https://luigimorel.me"
+                            rel="noreferrer"
+                            className="footer__link"
+                            target="_blank"
+                        >
+                            Luigi Morel {'    '}
+                        </a>
+                        {year}
+                    </p>
+                </div>
             </div>
         </div>
     );
