@@ -85,7 +85,7 @@ li.nav-link:hover {
 }
 
 .hero__para {
-    font-size: 60px;
+    font-size: 55px;
     background: none;
     padding-top: 150px;
     line-height: 56px;
@@ -94,6 +94,7 @@ li.nav-link:hover {
 .small__text {
     background: none;
     font-size: 22px;
+    font-weight: 400;
     margin-top: 40px;
 }
 
@@ -117,12 +118,12 @@ i {
     .hero__section {
         padding-right: 24px;
         padding-left: 24px;
+        height: 450px;
     }
 
     .hero__para {
         padding-top: 80px;
         font-size: 34px;
-        word-wrap: unset;
     }
 
     .small__text {
@@ -136,7 +137,7 @@ i {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 400px) {
     .small__text {
         margin-right: 1rem;
         margin-left: 1rem;
@@ -148,6 +149,10 @@ i {
 
     .hero__btn {
         margin-top: 18px;
+    }
+
+    .hero__section {
+        height: 480px;
     }
 }
 

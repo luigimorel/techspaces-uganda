@@ -8,10 +8,8 @@ const Hero = () => {
                     Ugandan <i>tech</i> ecosystem in one place
                 </p>
                 <p className="small__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nulla, aspernatur necessitatibus maiores temporibus
-                    exercitationem delectus assumenda modi laboriosam ad
-                    incidunt.
+                    Bringing to you the information about the ecosystem in
+                    Uganda with convenience, purpose and zero ambiguity.
                 </p>
                 <Link to="/">
                     <button className="hero__btn">Learn More</button>
