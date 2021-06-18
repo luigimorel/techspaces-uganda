@@ -84,6 +84,10 @@ li.nav-link:hover {
     padding-right: 150px;
 }
 
+br {
+    display: none;
+}
+
 .hero__para {
     font-size: 55px;
     background: none;
@@ -95,6 +99,7 @@ li.nav-link:hover {
     background: none;
     font-size: 22px;
     font-weight: 400;
+    margin: 0 2rem;
     margin-top: 40px;
 }
 
@@ -121,6 +126,10 @@ i {
         height: 450px;
     }
 
+    br {
+        display: flex;
+    }
+
     .hero__para {
         padding-top: 80px;
         font-size: 34px;
@@ -128,6 +137,8 @@ i {
 
     .small__text {
         font-size: 1rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
         margin-top: 24px;
     }
 
@@ -148,7 +159,7 @@ i {
     }
 
     .hero__btn {
-        margin-top: 18px;
+        margin-top: 24px;
     }
 
     .hero__section {
@@ -190,7 +201,7 @@ li {
 
 .footer__container {
     height: 300px;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .footer__para {
@@ -211,6 +222,12 @@ li {
     color: var(--mainColor);
 }
 
+@media screen and (max-width: 991px) {
+    .footer__container {
+        margin-left: 1rem;
+    }
+}
+
 /* JUMBOTRON SECTION*/
 
 .jumbotron {
@@ -218,6 +235,32 @@ li {
     width: 100%;
     position: relative;
     background-color: var(--mainColor);
+}
+
+.jumbo__para {
+    font-size: 30px;
+    padding: 1.5rem 0 3rem 0;
+    color: var(--primaryWhite);
+    font-weight: 500;
+    line-break: strict;
+}
+
+.jumbo__para br {
+    display: flex;
+}
+
+.breadcrumb {
+    font-size: 1rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .jumbo__para br {
+        display: none;
+    }
 }
 
 /* RESOURCE CONTENT STYLES */
@@ -243,7 +286,6 @@ li {
     padding: px;
     justify-content: center;
     border-radius: 50%;
-
     background-color: #25c2a0;
     color: white;
 }
