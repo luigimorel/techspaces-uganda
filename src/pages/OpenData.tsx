@@ -6,9 +6,20 @@ const OpenData = () => {
     return (
         <div>
             <Navbar />
-            <div className="jumbotron text-center my-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium, tenetur.
+            <div className="jumbotron ">
+                <p
+                    className="breadcrumb"
+                    style={{ backgroundColor: '#25c2a0' }}
+                >
+                    Home / Open Data
+                </p>
+                <p
+                    className="text-center jumbo__para "
+                    style={{ backgroundColor: '#25c2a0' }}
+                >
+                    Lorem ipsum dolor sit amet consectetur <br /> adipisicing
+                    elit. Laudantium, tenetur.
+                </p>
             </div>
             <OpenDataContent />
             <Footer />
