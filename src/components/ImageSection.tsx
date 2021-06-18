@@ -9,28 +9,31 @@ const ImageSection = () => {
                         <img
                             src={placeholder}
                             className="card-img-top"
-                            alt=""
+                            alt="People in the Ugandan tech ecosystem"
                         />
                     </div>
+
                     <div className="col-md-3">
                         <img
                             src={placeholder}
                             className="card-img-top"
-                            alt=""
+                            alt="People in the Ugandan tech ecosystem"
                         />
                     </div>
+
                     <div className="col-md-3">
                         <img
                             src={placeholder}
                             className="card-img-top"
-                            alt=""
+                            alt="People in the Ugandan tech ecosystem"
                         />
                     </div>
+
                     <div className="col-md-3">
                         <img
                             src={placeholder}
                             className="card-img-top"
-                            alt=""
+                            alt="People in the Ugandan tech ecosystem"
                         />
                     </div>
                 </div>

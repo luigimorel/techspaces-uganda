@@ -30,6 +30,7 @@ const ValueProposition = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
@@ -40,6 +41,7 @@ const ValueProposition = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
@@ -50,6 +52,7 @@ const ValueProposition = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
@@ -58,6 +61,7 @@ const ValueProposition = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
@@ -66,6 +70,7 @@ const ValueProposition = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
@@ -74,6 +79,7 @@ const ValueProposition = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
@@ -82,12 +88,13 @@ const ValueProposition = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
                                         <Fa500Px className="icon" />
                                         <p className="text-center">
-                                            Collaborations{' '}
+                                            Collaborations
                                         </p>
                                     </div>
                                 </div>

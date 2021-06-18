@@ -19,10 +19,12 @@ const Footer = () => {
                                 alt="Techspaces Uganda logo"
                             />
                         </Link>
+
                         <p className="leading footer__para  mt-3">
                             Bringing the Ugandan tech eco-system into one place.{' '}
                         </p>
                     </div>
+
                     <div className="footer__section col-md-4">
                         <h5 className="heading mb-3 footer__heading ">
                             Useful Links
@@ -33,6 +35,7 @@ const Footer = () => {
                                     Home
                                 </Link>
                             </li>
+
                             <li className="list-item mb-3">
                                 <Link
                                     className="footer__link"
@@ -41,16 +44,19 @@ const Footer = () => {
                                     Communities
                                 </Link>
                             </li>
+
                             <li className="list-item mb-3">
                                 <Link className="footer__link" to="/oss">
                                     Open Source Projects
                                 </Link>
                             </li>
+
                             <li className="list-item mb-3">
                                 <Link className="footer__link" to="/open-data">
                                     Open Data
                                 </Link>
                             </li>
+
                             <li className="list-item mb-3">
                                 <Link className="footer__link" to="/resources">
                                     Resources
@@ -63,6 +69,7 @@ const Footer = () => {
                         <h5 className="heading mb-3 footer__heading">
                             Social Links
                         </h5>
+
                         <div className="row">
                             <a
                                 className="footer__link mb-3"

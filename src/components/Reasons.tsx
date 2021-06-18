@@ -27,6 +27,7 @@ const Reasons = () => {
                             </p>
                         </div>
                     </div>
+
                     <div className="col-md-4">
                         <div className="container">
                             <div className="reason__container  ">
@@ -42,6 +43,7 @@ const Reasons = () => {
                             </p>
                         </div>
                     </div>
+
                     <div className="col-md-4">
                         <div className="container">
                             <div className="reason__container  ">

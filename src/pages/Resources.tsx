@@ -13,6 +13,7 @@ const Resources = () => {
                 >
                     Home / Resources
                 </p>
+
                 <p
                     className="text-center jumbo__para "
                     style={{ backgroundColor: '#25c2a0' }}

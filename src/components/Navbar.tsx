@@ -21,6 +21,7 @@ const Navbar = () => {
                     alt="Techspaces Uganda"
                 />
             </Link>
+
             <button
                 className="navbar-toggler mx-2"
                 type="button"
@@ -29,6 +30,7 @@ const Navbar = () => {
             >
                 <FaAlignRight />
             </button>
+
             <div
                 className={
                     open ? 'navbar-collapse' : 'collapse navbar-collapse '
@@ -44,11 +46,13 @@ const Navbar = () => {
                             Communities
                         </Link>
                     </li>
+
                     <li className="nav-item mx-2 ">
                         <Link to="/oss" className="nav-link py-3 px-0 px-lg-3 ">
                             Open Source Projects
                         </Link>
                     </li>
+
                     <li className="nav-item mx-2 ">
                         <Link
                             to="/open-data"
@@ -57,6 +61,7 @@ const Navbar = () => {
                             Open Data
                         </Link>
                     </li>
+
                     <li className="nav-item mx-2 ">
                         <Link
                             to="/resources"
