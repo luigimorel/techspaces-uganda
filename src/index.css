@@ -119,6 +119,17 @@ i {
     border-radius: 70px;
 }
 
+.hero__imgs {
+    margin-right: 0;
+}
+
+.hero__imgs img {
+    width: 100%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 991px) {
     .hero__section {
         padding-right: 24px;
@@ -282,6 +293,7 @@ li {
 /* REASONS SECTION */
 .reason {
     height: 44px;
+    font-weight: 500;
     width: 44px;
     padding: px;
     justify-content: center;
@@ -292,5 +304,52 @@ li {
 
 .reason__container {
     display: flex;
+    justify-content: flex-start;
+}
+
+.divider__container {
+    height: 200px;
+    background-image: url('./assets/sec-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+
+/* VALUE PROPOSITION  */
+
+.icon__container {
+    width: 600px;
+    margin: 0 auto;
+    align-items: center;
     justify-content: center;
+}
+
+.icon__layout {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.layout {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.icon {
+    margin: 10px 10px 10px 30px;
+    font-size: 30px;
+}
+
+.info__text {
+    width: 500px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 767px) {
+    .icon__container {
+        width: auto;
+    }
+
+    .info__text {
+        width: auto;
+    }
 }

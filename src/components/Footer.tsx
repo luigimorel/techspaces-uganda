@@ -26,7 +26,7 @@ const Footer = () => {
                                 alt="Techspaces Uganda logo"
                             />
                         </Link>
-                        <p className="leading footer__para  ">
+                        <p className="leading footer__para  mt-3">
                             Bringing the Ugandan tech eco-system into one place.{' '}
                         </p>
                     </div>
@@ -65,18 +65,16 @@ const Footer = () => {
                     </div>
 
                     <div className="col-md-4">
-                        <h5 className="heading mb-4 ">Social Links</h5>
+                        <h5 className="heading mb-3 ">Social Links</h5>
                         <div className="row">
-                            <i className="fas fas-github mb-3">
-                                <a
-                                    className="footer__link"
-                                    href="https://github.com/CodeForUganda/techies-uganda"
-                                    rel="noreferrer"
-                                    target="_blank"
-                                >
-                                    <FaGithub color="#25c2a0" />
-                                </a>
-                            </i>
+                            <a
+                                className="footer__link mb-3"
+                                href="https://github.com/CodeForUganda/techies-uganda"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <FaGithub color="#25c2a0" />
+                            </a>
                         </div>
                     </div>
                 </div>
