@@ -1,5 +1,6 @@
+import { FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo-tech.png';
+import logo from '../assets/logo2.svg';
 
 const Footer = () => {
     const date = new Date();
@@ -30,7 +31,7 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="col-md-4">
-                        <h5 className="heading mb-4 mt-4">Useful Links</h5>
+                        <h5 className="heading mb-3 ">Useful Links</h5>
                         <ul className="list-group mt-2">
                             <li className="list-item mb-3">
                                 <Link className="footer__link" to="/">
@@ -64,7 +65,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col-md-4">
-                        <h5 className="heading mb-4 mt-4">Social Links</h5>
+                        <h5 className="heading mb-4 ">Social Links</h5>
                         <div className="row">
                             <i className="fas fas-github mb-3">
                                 <a
@@ -73,7 +74,7 @@ const Footer = () => {
                                     rel="noreferrer"
                                     target="_blank"
                                 >
-                                    Github
+                                    <FaGithub color="#25c2a0" />
                                 </a>
                             </i>
                         </div>
