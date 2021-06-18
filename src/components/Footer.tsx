@@ -1,6 +1,6 @@
 import { FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo2.svg';
+import logo from '../assets/logo-dark.svg';
 
 const Footer = () => {
     const date = new Date();
@@ -70,12 +70,13 @@ const Footer = () => {
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <FaGithub />
+                                <FaGithub className="icon" />
                             </a>
                         </div>
                     </div>
                 </div>
-                <div className="container copyright__container">
+
+                <div className="container copyright__container mb-0">
                     <p className=" text-center copyright  mt-5  pb-5">
                         Built with ❤ by{'  '}
                         <a

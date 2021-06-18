@@ -24,6 +24,7 @@ a {
 }
 
 a:hover {
+    font-weight: 700;
     color: var(--mainColor);
 }
 
@@ -45,11 +46,13 @@ li.nav-link:hover {
 .navbar {
     background-color: var(--primaryWhite);
 }
+
 @media screen and (max-width: 768px) {
     .logo__img {
         margin-left: 10px;
     }
 }
+
 @media screen and (min-width: 767px) {
     .logo__img {
         margin-left: 50px;
@@ -77,6 +80,7 @@ li.nav-link:hover {
     align-items: center;
     text-align: center;
 }
+
 .hero__section {
     height: 522px;
     background-color: var(--heroColor);
@@ -376,6 +380,7 @@ li {
     width: 500px;
     margin: 0 auto;
 }
+
 @media screen and (max-width: 767px) {
     .icon__container {
         width: auto;

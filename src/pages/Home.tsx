@@ -7,14 +7,14 @@ import ValueProposition from '../components/ValueProposition';
 
 const Home = () => {
     return (
-        <div className="mx-auto">
+        <>
             <Navbar />
             <Hero />
             <ImageSection />
             <Reasons />
             <ValueProposition />
             <Footer />
-        </div>
+        </>
     );
 };
 
