@@ -113,6 +113,44 @@ i {
     border-radius: 70px;
 }
 
+@media screen and (max-width: 991px) {
+    .hero__section {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .hero__para {
+        padding-top: 80px;
+        font-size: 34px;
+        word-wrap: unset;
+    }
+
+    .small__text {
+        font-size: 1rem;
+        margin-top: 24px;
+    }
+
+    .hero__btn {
+        margin-top: 24px;
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .small__text {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .hero__para {
+        padding-top: 45px;
+    }
+
+    .hero__btn {
+        margin-top: 18px;
+    }
+}
+
 /* COMMUNITY PAGE  STYLES */
 
 .link__container {
