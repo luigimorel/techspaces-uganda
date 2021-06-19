@@ -271,6 +271,9 @@ li {
 
 .footer__icon {
     font-size: 40px;
+    border: #000000;
+    background-color: #000000;
+    fill: white;
 }
 @media screen and (max-width: 991px) {
     .main__footer__container .row {
