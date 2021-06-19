@@ -1,4 +1,4 @@
-import { FaGithub } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo-dark.svg';
 
@@ -72,12 +72,12 @@ const Footer = () => {
 
                         <div className="row">
                             <a
-                                className="footer__link mb-3"
-                                href="https://github.com/CodeForUganda/techies-uganda"
+                                className="footer__link mb-3 mr-0"
+                                href="https://github.com/CodeForUganda/techspaces-uganda"
                                 rel="noreferrer"
                                 target="_blank"
                             >
-                                <FaGithub className="footer__icon" />
+                                <FaGithubSquare className="footer__icon" />
                             </a>
                         </div>
                     </div>
