@@ -125,6 +125,7 @@ i {
 
 .hero__imgs {
     margin-right: 0;
+    margin-bottom: 5rem;
 }
 
 .hero__imgs img {
@@ -154,11 +155,11 @@ i {
         font-size: 1rem;
         margin-left: 4rem;
         margin-right: 4rem;
-        margin-top: 24px;
+        margin-top: 60px;
     }
 
     .hero__btn {
-        margin-top: 24px;
+        margin-top: 60px;
         height: 48px;
     }
 }
@@ -174,7 +175,7 @@ i {
     }
 
     .hero__btn {
-        margin-top: 24px;
+        margin-top: 30px;
     }
 
     .hero__section {

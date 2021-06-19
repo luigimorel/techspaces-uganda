@@ -9,9 +9,8 @@ const Hero = () => {
                     </p>
 
                     <p className="small__text">
-                        Bringing to you the information about the ecosystem in{' '}
-                        <br />
-                        Uganda with convenience, purpose and zero ambiguity.
+                        Bringing to you the information about the with
+                        convenience, purpose and zero ambiguity.
                     </p>
 
                     <Link to="/">

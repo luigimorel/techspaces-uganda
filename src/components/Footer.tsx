@@ -67,7 +67,7 @@ const Footer = () => {
 
                     <div className="col-md-4 footer__section">
                         <h5 className="heading mb-3 footer__heading">
-                            Social Links
+                            Contribute
                         </h5>
 
                         <div className="row">

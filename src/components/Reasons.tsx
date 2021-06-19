@@ -4,7 +4,7 @@ const Reasons = () => {
             <div className="container mb-5">
                 {/* TO DO: Find a way of reducing the duplication */}
                 <div className="row">
-                    <h6 className="heading text-center mt-5 mb-5">
+                    <h6 className="heading text-center mb-3">
                         WHY TECHSPACES UGANDA?
                     </h6>
 
