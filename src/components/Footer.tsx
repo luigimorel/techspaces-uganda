@@ -7,8 +7,8 @@ const Footer = () => {
     const year = date.getFullYear();
 
     return (
-        <div className="footer__container ">
-            <div className="container main__footer__container">
+        <footer className="main__footer__container ">
+            <div className="container  footer__container">
                 <div className="row mb-3">
                     <div className="footer__section col-md-4">
                         <Link to="/">
@@ -72,7 +72,7 @@ const Footer = () => {
 
                         <div className="row">
                             <a
-                                className="footer__link mb-3 mr-0"
+                                className="footer__link mb-3 "
                                 href="https://github.com/CodeForUganda/techspaces-uganda"
                                 rel="noreferrer"
                                 target="_blank"
@@ -83,7 +83,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="container copyright__container mb-0">
+                <span className="container copyright__container mb-0">
                     <p className=" text-center copyright  mt-5  pb-5">
                         Built with ❤ by{'  '}
                         <a
@@ -96,9 +96,9 @@ const Footer = () => {
                         </a>
                         {year}
                     </p>
-                </div>
+                </span>
             </div>
-        </div>
+        </footer>
     );
 };
 
