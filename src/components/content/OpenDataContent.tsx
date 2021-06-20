@@ -5,9 +5,9 @@ const OpenDataContent = () => {
         <div className="container ">
             {/* TO DO: Find a way of reducing the duplication */}
             <div className="row resources__row">
-                <div className="col-md-4 resource mb-4">
-                    {data.map(({ imageURL, altText, descText, index }) => {
-                        return (
+                {data.map(({ imageURL, altText, descText, index }) => {
+                    return (
+                        <div className="col-md-4 resource mb-4">
                             <div
                                 className="col-md-4 "
                                 style={{ width: 'auto' }}
@@ -30,10 +30,10 @@ const OpenDataContent = () => {
                                         </a>
                                     </p>
                                 </div>
-                            </div>
-                        );
-                    })}
-                </div>
+                            </div>{' '}
+                        </div>
+                    );
+                })}
             </div>
         </div>
     );
