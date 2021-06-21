@@ -30,7 +30,7 @@ const OpenDataContent = () => {
                                         </a>
                                     </p>
                                 </div>
-                            </div>{' '}
+                            </div>
                         </div>
                     );
                 })}
