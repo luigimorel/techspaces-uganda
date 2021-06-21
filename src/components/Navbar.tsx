@@ -62,14 +62,14 @@ const Navbar = () => {
                         </Link>
                     </li>
 
-                    <li className="nav-item mx-2 ">
+                    {/* <li className="nav-item mx-2 ">
                         <Link
                             to="/resources"
                             className="nav-link py-3 px-0 px-lg-3 "
                         >
                             Resources
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav>
