@@ -191,8 +191,16 @@ i {
     margin: 0 auto;
 }
 
-nav {
+.resource__heading {
+    font-weight: 600;
+}
+
+.reason nav {
     position: relative;
+}
+
+.heading__span {
+    margin-left: 20px;
 }
 
 .connect__link {
