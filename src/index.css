@@ -191,8 +191,16 @@ i {
     margin: 0 auto;
 }
 
-nav {
+.resource__heading {
+    font-weight: 600;
+}
+
+.reason nav {
     position: relative;
+}
+
+.heading__span {
+    margin-left: 20px;
 }
 
 .connect__link {
@@ -239,6 +247,7 @@ li {
 .footer__ul {
     background-color: #000000;
 }
+
 .copyright__container {
     background-color: #000000;
 }
@@ -338,8 +347,8 @@ li {
     height: 44px;
     font-weight: 500;
     width: 44px;
-    padding: px;
     justify-content: center;
+    font-size: 1.6rem;
     border-radius: 50%;
     background-color: #25c2a0;
     color: white;
