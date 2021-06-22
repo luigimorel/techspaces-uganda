@@ -37,8 +37,9 @@ const Communities = () => {
                     className="text-center jumbo__para "
                     style={{ backgroundColor: '#25c2a0' }}
                 >
-                    Lorem ipsum dolor sit amet consectetur <br /> adipisicing
-                    elit. Laudantium, tenetur.
+                    Be part of the larger developer <br />
+                    ecosystem by joining the technical <br /> group of your
+                    choice.
                 </p>
             </div>
 

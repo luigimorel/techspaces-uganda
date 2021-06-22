@@ -37,8 +37,8 @@ const OpenSource = () => {
                     className="text-center jumbo__para "
                     style={{ backgroundColor: '#25c2a0' }}
                 >
-                    Lorem ipsum dolor sit amet consectetur <br /> adipisicing
-                    elit. Laudantium, tenetur.
+                    Browse the open source software <br /> written by Ugandan
+                    software developers
                 </p>
             </div>
             <OSSContent />

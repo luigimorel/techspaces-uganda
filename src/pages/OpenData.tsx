@@ -18,8 +18,8 @@ const OpenData = () => {
                     className="text-center jumbo__para "
                     style={{ backgroundColor: '#25c2a0' }}
                 >
-                    Lorem ipsum dolor sit amet consectetur <br /> adipisicing
-                    elit. Laudantium, tenetur.
+                    Browse through actionable data about Uganda <br /> that can
+                    be used for decision making.
                 </p>
             </div>
             <OpenDataContent />
