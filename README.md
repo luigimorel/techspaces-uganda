@@ -8,7 +8,7 @@ This repository contains information about the developer community in Ugannda.
 
 ```bash
 
-   https://github.com/CodeForUganda/techspaces-uganda
+   https://github.com/morelmiles/techspaces-uganda
 
 ```
 
