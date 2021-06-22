@@ -404,3 +404,25 @@ li {
         width: auto;
     }
 }
+
+/* 404 PAGE */
+
+.error__text {
+    margin-top: 17rem;
+    font-size: 2rem;
+}
+
+.error__btn {
+    width: 100px;
+    padding: 0.5rem 1rem;
+    color: var(--primaryWhite);
+    background-color: var(--mainColor);
+    border: none;
+    margin: 100px auto;
+}
+
+@media screen and (max-width: 767px) {
+    .error__text {
+        margin-top: 5rem;
+    }
+}

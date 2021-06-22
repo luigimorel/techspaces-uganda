@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import OpenData from './pages/OpenData';
 import OpenSource from './pages/OpenSource';
 import Resources from './pages/Resources';
+import Error from './pages/Error';
 
 <Helmet>
     <title>Techspaces Uganda | Home</title>
@@ -32,6 +33,7 @@ const App = () => {
             <Route exact path="/communities" component={Communities} />
             <Route exact path="/oss" component={OpenSource} />
             <Route exact path="/open-data" component={OpenData} />
+            <Route component={Error} />
         </div>
     );
 };
