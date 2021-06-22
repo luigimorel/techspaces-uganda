@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet';
 
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 import ResourcesContent from '../components/content/ResourcesContent';
 
 <Helmet>
@@ -24,7 +23,6 @@ import ResourcesContent from '../components/content/ResourcesContent';
 const Resources = () => {
     return (
         <>
-            <Navbar />
             <div className="jumbotron ">
                 <p
                     className="breadcrumb"

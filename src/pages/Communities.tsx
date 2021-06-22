@@ -2,7 +2,6 @@ import { Helmet } from 'react-helmet';
 
 import CommunitiesContent from '../components/content/ComunitiesContent';
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 
 <Helmet>
     <title>Techspaces Uganda | Communities</title>
@@ -24,7 +23,6 @@ import Navbar from '../components/Navbar';
 const Communities = () => {
     return (
         <div>
-            <Navbar />
             <div className="jumbotron ">
                 <p
                     className="breadcrumb"

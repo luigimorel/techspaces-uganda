@@ -1,11 +1,9 @@
 import OpenDataContent from '../components/content/OpenDataContent';
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 
 const OpenData = () => {
     return (
         <div>
-            <Navbar />
             <div className="jumbotron ">
                 <p
                     className="breadcrumb"

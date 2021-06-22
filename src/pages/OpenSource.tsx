@@ -2,7 +2,6 @@ import { Helmet } from 'react-helmet';
 
 import OSSContent from '../components/content/OSSContent';
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 
 <Helmet>
     <title>Techspaces Uganda | Open Source Software</title>
@@ -24,7 +23,6 @@ import Navbar from '../components/Navbar';
 const OpenSource = () => {
     return (
         <div>
-            <Navbar />
             <div className="jumbotron ">
                 <p
                     className="breadcrumb"
