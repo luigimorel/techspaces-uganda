@@ -22,7 +22,7 @@ import Navbar from './components/Navbar';
     <meta name="revisit-after" content="1 days" />
     <meta
         name="description"
-        content="Techspaces Uganda is a tech community led initiative with an aim of congregating information about the tech ecosystem in Uganda in one place "
+        content="A tech community led initiative with an aim of congregating information about the tech ecosystem in Uganda in one place "
     />
 </Helmet>;
 
