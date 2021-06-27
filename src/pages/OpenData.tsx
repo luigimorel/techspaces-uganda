@@ -1,5 +1,4 @@
 import OpenDataContent from '../components/content/OpenDataContent';
-import Footer from '../components/Footer';
 
 const OpenData = () => {
     return (
@@ -21,7 +20,6 @@ const OpenData = () => {
                 </p>
             </div>
             <OpenDataContent />
-            <Footer />
         </div>
     );
 };

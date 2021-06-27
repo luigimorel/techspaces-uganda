@@ -1,4 +1,3 @@
-import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import ImageSection from '../components/ImageSection';
 import Reasons from '../components/Reasons';
@@ -11,7 +10,6 @@ const Home = () => {
             <ImageSection />
             <Reasons />
             <ValueProposition />
-            <Footer />
         </>
     );
 };

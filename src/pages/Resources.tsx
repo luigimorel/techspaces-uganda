@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet';
 
-import Footer from '../components/Footer';
 import ResourcesContent from '../components/content/ResourcesContent';
 
 <Helmet>
@@ -40,7 +39,6 @@ const Resources = () => {
                 </p>
             </div>
             <ResourcesContent />
-            <Footer />
         </>
     );
 };

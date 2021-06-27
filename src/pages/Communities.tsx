@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet';
 
 import CommunitiesContent from '../components/content/ComunitiesContent';
-import Footer from '../components/Footer';
 
 <Helmet>
     <title>Techspaces Uganda | Communities</title>
@@ -42,7 +41,6 @@ const Communities = () => {
             </div>
 
             <CommunitiesContent />
-            <Footer />
         </div>
     );
 };

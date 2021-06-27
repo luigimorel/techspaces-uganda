@@ -8,6 +8,7 @@ import OpenSource from './pages/OpenSource';
 import Resources from './pages/Resources';
 import Error from './pages/Error';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 <Helmet>
     <title>Techspaces Uganda | Home</title>
@@ -38,6 +39,7 @@ const App = () => {
                 <Route exact path="/open-data" component={OpenData} />
                 <Route component={Error} />
             </Switch>
+            <Footer />
         </div>
     );
 };

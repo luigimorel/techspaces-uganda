@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet';
 
 import OSSContent from '../components/content/OSSContent';
-import Footer from '../components/Footer';
 
 <Helmet>
     <title>Techspaces Uganda | Open Source Software</title>
@@ -40,7 +39,6 @@ const OpenSource = () => {
                 </p>
             </div>
             <OSSContent />
-            <Footer />
         </div>
     );
 };
