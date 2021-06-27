@@ -19,11 +19,11 @@ const Reasons = () => {
                                     1
                                 </h3>
                             </div>
-                            <h4 className=" heading">Lorem ipsum dolor sit.</h4>
+                            <h4 className=" heading">Connect</h4>
                             <p className="leading">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aliquid, cum omnis obcaecati
-                                quia explicabo natus!
+                                Get in touch with developers and friends of the
+                                eco-system that are working on cool and
+                                innovative ideas.
                             </p>
                         </div>
                     </div>
@@ -35,11 +35,11 @@ const Reasons = () => {
                                     2
                                 </h3>
                             </div>
-                            <h4 className=" heading">Lorem ipsum dolor sit.</h4>
+                            <h4 className=" heading">Learn</h4>
                             <p className="leading">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aliquid, cum omnis obcaecati
-                                quia explicabo natus!
+                                Get an opportunity to learn from other
+                                participants in the ecosystem through
+                                collaboration and conversations.
                             </p>
                         </div>
                     </div>
@@ -51,11 +51,11 @@ const Reasons = () => {
                                     3
                                 </h3>
                             </div>
-                            <h4 className=" heading">Lorem ipsum dolor sit.</h4>
+                            <h4 className=" heading">Grow</h4>
                             <p className="leading">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Aliquid, cum omnis obcaecati
-                                quia explicabo natus!
+                                Growth requires hardwork. Gain knowledge and
+                                grow both as a individual and as a participant
+                                in the eco-system.
                             </p>
                         </div>
                     </div>

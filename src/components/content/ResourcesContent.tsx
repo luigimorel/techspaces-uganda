@@ -37,7 +37,7 @@ const OpenDataContent = () => {
 
                                         <p className="card-text">
                                             <a
-                                                href="link"
+                                                href={communityLink}
                                                 target="_blank"
                                                 rel="noreferrer"
                                             >

@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/logo-dark.svg';
 
 const Footer = () => {
-    const date = new Date();
-    const year = date.getFullYear();
-
     return (
         <footer className="main__footer__container ">
             <div className="container  footer__container">
@@ -73,7 +70,7 @@ const Footer = () => {
                         <div className="row">
                             <a
                                 className="footer__link mb-3 "
-                                href="https://github.com/CodeForUganda/techspaces-uganda"
+                                href="https://github.com/morelmiles/techspaces-uganda"
                                 rel="noreferrer"
                                 target="_blank"
                             >
@@ -94,7 +91,6 @@ const Footer = () => {
                         >
                             Luigi Morel {'    '}
                         </a>
-                        {year}
                     </p>
                 </span>
             </div>

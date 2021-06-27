@@ -21,9 +21,10 @@ const ValueProposition = () => {
                     </h2>
 
                     <p className="info__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quas dolores voluptatum quia necessitatibus repellat
-                        assumenda reiciendis .
+                        Techspaces Uganda was created with the main aim of
+                        congregating information about the bigger tech
+                        eco-system ( both technical and non-technical) in
+                        Uganda.
                     </p>
                 </div>
 

@@ -30,14 +30,14 @@ const OpenDataContent = () => {
                                                     rel="noreferrer"
                                                     target="_blank"
                                                 >
-                                                    <FaExternalLinkAlt color="red" />
+                                                    <FaExternalLinkAlt />
                                                 </a>
                                             </span>
                                         </p>
 
                                         <p className="card-text">
                                             <a
-                                                href="link"
+                                                href={communityLink}
                                                 target="_blank"
                                                 rel="noreferrer"
                                             >
