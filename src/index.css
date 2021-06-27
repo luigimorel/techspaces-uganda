@@ -388,6 +388,11 @@ li {
 .icon {
     margin: 10px 10px 10px 30px;
     font-size: 40px;
+    fill: var(--mainColor);
+}
+
+.vp__text {
+    font-weight: 500;
 }
 
 .info__text {

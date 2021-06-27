@@ -1,4 +1,12 @@
-import { Fa500Px } from 'react-icons/fa';
+import {
+    FaBook,
+    FaCode,
+    FaCodeBranch,
+    FaDatabase,
+    FaPalette,
+    FaPeopleCarry,
+    FaToolbox,
+} from 'react-icons/fa';
 
 const ValueProposition = () => {
     return (
@@ -25,8 +33,10 @@ const ValueProposition = () => {
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
-                                        <Fa500Px className="icon" />
-                                        <p className="text-center">Tools</p>
+                                        <FaToolbox className="icon" />
+                                        <p className="text-center vp__text">
+                                            Tools
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -34,8 +44,8 @@ const ValueProposition = () => {
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
-                                        <Fa500Px className="icon" />
-                                        <p className="text-center">
+                                        <FaCode className="icon" />
+                                        <p className="text-center vp__text">
                                             Engineering
                                         </p>
                                     </div>
@@ -45,8 +55,8 @@ const ValueProposition = () => {
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
-                                        <Fa500Px className="icon" />
-                                        <p className="text-center">
+                                        <FaDatabase className="icon" />
+                                        <p className="text-center vp__text">
                                             Open Data{' '}
                                         </p>
                                     </div>
@@ -56,8 +66,10 @@ const ValueProposition = () => {
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
-                                        <Fa500Px className="icon" />
-                                        <p className="text-center">OSS</p>
+                                        <FaCodeBranch className="icon" />
+                                        <p className="text-center vp__text">
+                                            OSS
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -65,8 +77,10 @@ const ValueProposition = () => {
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
-                                        <Fa500Px className="icon" />
-                                        <p className="text-center">Start-ups</p>
+                                        <FaPeopleCarry className="icon" />
+                                        <p className="text-center vp__text">
+                                            Start-ups
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -74,8 +88,10 @@ const ValueProposition = () => {
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
-                                        <Fa500Px className="icon" />
-                                        <p className="text-center">Docs </p>
+                                        <FaBook className="icon" />
+                                        <p className="text-center vp__text">
+                                            Docs{' '}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -83,8 +99,10 @@ const ValueProposition = () => {
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
-                                        <Fa500Px className="icon" />
-                                        <p className="text-center">Design</p>
+                                        <FaPalette className="icon" />
+                                        <p className="text-center vp__text">
+                                            Design
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -92,8 +110,8 @@ const ValueProposition = () => {
                             <div className="col-md-3">
                                 <div className="icon__layout">
                                     <div className="layout my-4">
-                                        <Fa500Px className="icon" />
-                                        <p className="text-center">
+                                        <FaCode className="icon" />
+                                        <p className="text-center vp__text">
                                             Collaborations
                                         </p>
                                     </div>
