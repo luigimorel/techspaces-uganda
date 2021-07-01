@@ -1,4 +1,4 @@
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 import Communities from './pages/Communities';
@@ -30,16 +30,18 @@ import Footer from './components/Footer';
 const App = () => {
     return (
         <div>
-            <Navbar />
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/resources" component={Resources} />
-                <Route exact path="/communities" component={Communities} />
-                <Route exact path="/oss" component={OpenSource} />
-                <Route exact path="/open-data" component={OpenData} />
-                <Route component={Error} />
-            </Switch>
-            <Footer />
+            <Router>
+                <Navbar />
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/resources" component={Resources} />
+                    <Route exact path="/communities" component={Communities} />
+                    <Route exact path="/oss" component={OpenSource} />
+                    <Route exact path="/open-data" component={OpenData} />
+                    <Route component={Error} />
+                </Switch>
+                <Footer />
+            </Router>
         </div>
     );
 };

@@ -20,6 +20,7 @@ const OpenDataContent = () => {
                                         className="card-img-top "
                                         src={imageURL}
                                         alt={heading}
+                                        data-test-id="img"
                                     />
                                     <div className="card-body">
                                         <p className="resource__heading card-text">

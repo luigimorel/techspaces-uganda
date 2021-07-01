@@ -1,5 +1,5 @@
 import { FaGithubSquare } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, BrowserRouter } from 'react-router-dom';
 import logo from '../assets/logo-dark.svg';
 
 const Footer = () => {
@@ -8,14 +8,17 @@ const Footer = () => {
             <div className="container  footer__container">
                 <div className="row mb-3">
                     <div className="footer__section col-md-4">
-                        <Link to="/">
-                            <img
-                                src={logo}
-                                width="200"
-                                height="auto"
-                                alt="Techspaces Uganda logo"
-                            />
-                        </Link>
+                        <BrowserRouter>
+                            {' '}
+                            <Link to="/">
+                                <img
+                                    src={logo}
+                                    width="200"
+                                    height="auto"
+                                    alt="Techspaces Uganda logo"
+                                />
+                            </Link>
+                        </BrowserRouter>
 
                         <p className="leading footer__para  mt-3">
                             Bringing the Ugandan tech eco-system into one place.{' '}
@@ -28,36 +31,52 @@ const Footer = () => {
                         </h5>
                         <ul className="list-group footer__ul mt-2">
                             <li className="list-item mb-3">
-                                <Link className="footer__link" to="/">
-                                    Home
-                                </Link>
+                                <BrowserRouter>
+                                    <Link className="footer__link" to="/">
+                                        Home
+                                    </Link>
+                                </BrowserRouter>
                             </li>
 
                             <li className="list-item mb-3">
-                                <Link
-                                    className="footer__link"
-                                    to="/communities"
-                                >
-                                    Communities
-                                </Link>
+                                <BrowserRouter>
+                                    <Link
+                                        className="footer__link"
+                                        to="/communities"
+                                    >
+                                        Communities
+                                    </Link>
+                                </BrowserRouter>
                             </li>
 
                             <li className="list-item mb-3">
-                                <Link className="footer__link" to="/oss">
-                                    Open Source Projects
-                                </Link>
+                                <BrowserRouter>
+                                    <Link className="footer__link" to="/oss">
+                                        Open Source Projects
+                                    </Link>
+                                </BrowserRouter>
                             </li>
 
                             <li className="list-item mb-3">
-                                <Link className="footer__link" to="/open-data">
-                                    Open Data
-                                </Link>
+                                <BrowserRouter>
+                                    <Link
+                                        className="footer__link"
+                                        to="/open-data"
+                                    >
+                                        Open Data
+                                    </Link>
+                                </BrowserRouter>
                             </li>
 
                             <li className="list-item mb-3">
-                                <Link className="footer__link" to="/resources">
-                                    Resources
-                                </Link>
+                                <BrowserRouter>
+                                    <Link
+                                        className="footer__link"
+                                        to="/resources"
+                                    >
+                                        Resources
+                                    </Link>
+                                </BrowserRouter>
                             </li>
                         </ul>
                     </div>

@@ -58,7 +58,7 @@ const ValueProposition = () => {
                                     <div className="layout my-4">
                                         <FaDatabase className="icon" />
                                         <p className="text-center vp__text">
-                                            Open Data{' '}
+                                            Open Data
                                         </p>
                                     </div>
                                 </div>

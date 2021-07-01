@@ -5,7 +5,7 @@ const ImageSection = () => {
         <>
             <div className="container mt-2 mb-5">
                 <div className="row  hero__imgs ">
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-testid="img">
                         <img
                             src="https://res.cloudinary.com/morelmiles/image/upload/v1624127126/Screenshot_2021-06-19_212457_hqgov0.jpg"
                             className="card-img-top"
@@ -13,7 +13,7 @@ const ImageSection = () => {
                         />
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-testid="img">
                         <img
                             src={placeholder}
                             className="card-img-top"
@@ -21,7 +21,7 @@ const ImageSection = () => {
                         />
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-testid="img">
                         <img
                             src={placeholder}
                             className="card-img-top"
@@ -29,7 +29,7 @@ const ImageSection = () => {
                         />
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-md-3" data-testid="img">
                         <img
                             src={placeholder}
                             className="card-img-top"

@@ -17,7 +17,9 @@ const Hero = () => {
                         rel="noreferrer noopenner"
                         target="_blank"
                     >
-                        <button className="hero__btn">Contribute</button>
+                        <button className="hero__btn" data-testid="contribute">
+                            Contribute
+                        </button>
                     </a>
                 </div>
             </div>

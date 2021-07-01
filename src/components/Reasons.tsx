@@ -2,13 +2,15 @@ const Reasons = () => {
     return (
         <>
             <div className="container mb-5">
-                {/* TO DO: Find a way of reducing the duplication */}
                 <div className="row">
                     <h6 className="heading text-center mb-3">
                         WHY TECHSPACES UGANDA?
                     </h6>
 
-                    <h2 className="heading text-center mb-5">
+                    <h2
+                        className="heading text-center mb-5"
+                        data-testid="collabo"
+                    >
                         Foster collaboration
                     </h2>
 
