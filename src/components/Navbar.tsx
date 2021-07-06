@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, BrowserRouter } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaAlignRight } from 'react-icons/fa';
 import logo from '../assets/logo2.svg';
 
@@ -12,18 +12,15 @@ const Navbar = () => {
 
     return (
         <nav className="navbar navbar-expand-md">
-            <BrowserRouter>
-                {' '}
-                <Link to="/" className="navbar-brand ">
-                    <img
-                        src={logo}
-                        width="200"
-                        height="auto"
-                        className="logo__img"
-                        alt="Techspaces Uganda"
-                    />
-                </Link>
-            </BrowserRouter>
+            <NavLink to="/" className="navbar-brand ">
+                <img
+                    src={logo}
+                    width="200"
+                    height="auto"
+                    className="logo__img"
+                    alt="Techspaces Uganda"
+                />
+            </NavLink>
 
             <button
                 className="navbar-toggler mx-2"
@@ -43,47 +40,39 @@ const Navbar = () => {
             >
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item active mx-2 ">
-                        <BrowserRouter>
-                            <Link
-                                to="/communities"
-                                className="nav-link py-3 px-0 px-lg-3 "
-                            >
-                                Communities
-                            </Link>
-                        </BrowserRouter>
+                        <NavLink
+                            to="/communities"
+                            className="nav-link py-3 px-0 px-lg-3 "
+                        >
+                            Communities
+                        </NavLink>
                     </li>
 
                     <li className="nav-item mx-2 ">
-                        <BrowserRouter>
-                            <Link
-                                to="/oss"
-                                className="nav-link py-3 px-0 px-lg-3 "
-                            >
-                                Open Source Projects
-                            </Link>
-                        </BrowserRouter>
+                        <NavLink
+                            to="/oss"
+                            className="nav-link py-3 px-0 px-lg-3 "
+                        >
+                            Open Source Projects
+                        </NavLink>
                     </li>
 
                     <li className="nav-item mx-2 ">
-                        <BrowserRouter>
-                            <Link
-                                to="/open-data"
-                                className="nav-link py-3 px-0 px-lg-3 "
-                            >
-                                Open Data
-                            </Link>
-                        </BrowserRouter>
+                        <NavLink
+                            to="/open-data"
+                            className="nav-link py-3 px-0 px-lg-3 "
+                        >
+                            Open Data
+                        </NavLink>
                     </li>
 
                     {/* <li className="nav-item mx-2 ">
-                        <BrowserRouter>
-                            <Link
+                            <NavLink
                                 to="/companies"
                                 className="nav-link py-3 px-0 px-lg-3 "
                             >
                                 Companies
-                            </Link>
-                        </BrowserRouter>
+                            </NavLink>
                     </li> */}
                 </ul>
             </div>
