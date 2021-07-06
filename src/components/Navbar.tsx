@@ -65,14 +65,23 @@ const Navbar = () => {
                             Open Data
                         </NavLink>
                     </li>
+                    {/* 
+                    <li className="nav-item mx-2 ">
+                        <NavLink
+                            to="/companies"
+                            className="nav-link py-3 px-0 px-lg-3 "
+                        >
+                            Companies
+                        </NavLink>
+                    </li>
 
-                    {/* <li className="nav-item mx-2 ">
-                            <NavLink
-                                to="/companies"
-                                className="nav-link py-3 px-0 px-lg-3 "
-                            >
-                                Companies
-                            </NavLink>
+                    <li className="nav-item mx-2 ">
+                        <NavLink
+                            to="/blog"
+                            className="nav-link py-3 px-0 px-lg-3 "
+                        >
+                            Blog
+                        </NavLink>
                     </li> */}
                 </ul>
             </div>
