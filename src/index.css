@@ -311,7 +311,7 @@ li {
 
 .jumbo__para {
     font-size: 30px;
-    padding: 1.5rem 0 3rem 0;
+    padding: 1.5rem 0.5rem 3rem 0.5rem;
     color: var(--primaryWhite);
     font-weight: 500;
     line-break: strict;
