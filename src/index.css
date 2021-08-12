@@ -249,7 +249,6 @@ li {
 }
 
 .copyright {
-    font-weight: bold;
     background-color: #000000;
     color: var(--primaryWhite);
 }
@@ -273,7 +272,7 @@ li {
 
 .footer__link {
     color: var(--primaryWhite);
-    font-weight: 400;
+    font-weight: bold;
     background-color: #000000;
 }
 
