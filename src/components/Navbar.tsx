@@ -47,7 +47,7 @@ const Navbar = () => {
                             Communities
                         </NavLink>
                     </li>
-
+                    {/* {
                     <li className="nav-item mx-2 ">
                         <NavLink
                             to="/oss"
@@ -64,7 +64,7 @@ const Navbar = () => {
                         >
                             Open Data
                         </NavLink>
-                    </li>
+                    </li>} */}
                     {/* 
                     <li className="nav-item mx-2 ">
                         <NavLink
