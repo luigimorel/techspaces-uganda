@@ -3,7 +3,7 @@ const ImageSection = () => {
         <>
             <div className="container mt-2 mb-5">
                 <div className="row  hero__imgs ">
-                    <div className="col-md-3" data-testid="img">
+                    <div className="col-md-4" data-testid="img">
                         <img
                             src="https://res.cloudinary.com/morelmiles/image/upload/v1624127126/Screenshot_2021-06-19_212457_hqgov0.jpg"
                             loading="lazy"
@@ -12,7 +12,7 @@ const ImageSection = () => {
                         />
                     </div>
 
-                    <div className="col-md-3" data-testid="img">
+                    <div className="col-md-4" data-testid="img">
                         <img
                             src="https://res.cloudinary.com/morelmiles/image/upload/v1628783663/wordcamp_g7140o.jpg"
                             loading="lazy"
@@ -21,16 +21,7 @@ const ImageSection = () => {
                         />
                     </div>
 
-                    <div className="col-md-3" data-testid="img">
-                        <img
-                            src="https://res.cloudinary.com/morelmiles/image/upload/v1628793361/devc_llkawq.png'"
-                            loading="lazy"
-                            className="card-img-top"
-                            alt="Facebook developer circles group "
-                        />
-                    </div>
-
-                    <div className="col-md-3" data-testid="img">
+                    <div className="col-md-4" data-testid="img">
                         <img
                             src="https://res.cloudinary.com/morelmiles/image/upload/v1628793110/wordcamp-entebbe_hsnfgu.jpg"
                             loading="lazy"
