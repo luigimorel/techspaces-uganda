@@ -24,7 +24,6 @@ a {
 }
 
 a:hover {
-    font-weight: 700;
     color: var(--mainColor);
 }
 
@@ -193,6 +192,9 @@ i {
 
 .resource__heading {
     font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .reason nav {
