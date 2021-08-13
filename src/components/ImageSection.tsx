@@ -1,5 +1,3 @@
-import placeholder from './../assets/img-placeholder.png';
-
 const ImageSection = () => {
     return (
         <>
@@ -16,9 +14,7 @@ const ImageSection = () => {
 
                     <div className="col-md-3" data-testid="img">
                         <img
-                            src={
-                                'https://res.cloudinary.com/morelmiles/image/upload/v1628783663/wordcamp_g7140o.jpg'
-                            }
+                            src="https://res.cloudinary.com/morelmiles/image/upload/v1628783663/wordcamp_g7140o.jpg"
                             loading="lazy"
                             className="card-img-top"
                             alt="People in the Ugandan tech ecosystem"
@@ -27,20 +23,16 @@ const ImageSection = () => {
 
                     <div className="col-md-3" data-testid="img">
                         <img
-                            src={
-                                'https://res.cloudinary.com/morelmiles/image/upload/v1628793361/devc_llkawq.png'
-                            }
+                            src="https://res.cloudinary.com/morelmiles/image/upload/v1628793361/devc_llkawq.png'"
                             loading="lazy"
                             className="card-img-top"
-                            alt="Facebook developer circles group photo"
+                            alt="Facebook developer circles group "
                         />
                     </div>
 
                     <div className="col-md-3" data-testid="img">
                         <img
-                            src={
-                                'https://res.cloudinary.com/morelmiles/image/upload/v1628793110/wordcamp-entebbe_hsnfgu.jpg'
-                            }
+                            src="https://res.cloudinary.com/morelmiles/image/upload/v1628793110/wordcamp-entebbe_hsnfgu.jpg"
                             loading="lazy"
                             className="card-img-top"
                             alt="Lining up for a meal at Word Camp Entebe "

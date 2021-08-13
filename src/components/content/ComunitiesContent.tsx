@@ -24,7 +24,7 @@ const OpenDataContent = () => {
                                     />
                                     <div className="card-body">
                                         <p className="resource__heading card-text">
-                                            {heading}
+                                            <span> {heading} </span>
                                             <span className="heading__span">
                                                 <a
                                                     href={communityLink}
