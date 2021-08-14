@@ -80,4 +80,13 @@ export const data = [
         descText:
             'The Kampala Design Community brings together designers from different avenues. ',
     },
+    {
+        index: 10,
+        imageURL:
+            'https://res.cloudinary.com/morelmiles/image/upload/v1628935700/download_yakwm5.jpg',
+        heading: 'Women Techmakers, Kampala',
+        communityLink: 'https://twitter.com/WTMKampala',
+        descText:
+            " Part of @Google's @womentechmakers global program with focus on empowering every woman to thrive in the global tech ecosystem.",
+    },
 ];
