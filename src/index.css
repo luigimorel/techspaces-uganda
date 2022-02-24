@@ -274,7 +274,6 @@ li {
 
 .footer__link {
     color: var(--primaryWhite);
-    font-weight: bold;
     background-color: #000000;
 }
 
@@ -379,7 +378,7 @@ li {
 /* VALUE PROPOSITION  */
 
 .icon__container {
-    width: 600px;
+    width: 80%;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
