@@ -54,7 +54,7 @@ li.nav-link:hover {
 
 @media screen and (min-width: 767px) {
     .logo__img {
-        margin-left: 50px;
+        margin-left: 10rem;
     }
 }
 /* HERO SECTION STYLES */
