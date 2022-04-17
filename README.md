@@ -1,6 +1,8 @@
 ### Tech Spaces Uganda.
 
-This repository contains information about the developer community in Ugannda.
+This repository contains information about the developer communities in Ugannda.
+
+![Image of the homepage](./img.png)
 
 #### Installation Guidelines
 
@@ -58,7 +60,7 @@ yarn add
 
 ```
 
-7. Commit the changes:
+8. Commit the changes:
 
 ```bash
 
@@ -66,7 +68,7 @@ yarn add
 
 ```
 
-8. Submit a pull request:
+9. Submit a pull request:
 
 ```bash
 
