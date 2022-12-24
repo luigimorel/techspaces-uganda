@@ -4,7 +4,25 @@ This repository contains information about the developer communities in Ugannda.
 
 ![Image of the homepage](./img.png)
 
-#### Installation Guidelines
+## 2023 ROAD MAP
+
+After a year of maintaining this project, I have decided to grow it bigger. These are the changes that are be implemented in 2023:
+
+#### TO DO
+
+- [] Use Tailwindcss for styling
+- [] Add an events calendar
+- [] Add a blog
+- [] Add a job board for local companies
+- [] Add a directory for local tech companies in Uganda and what they major in
+- [] Overhaul the design.
+- [] Add a backend API (Whether to use proprietary or Firebase)
+- [] Add a CMS (I'm currently leaning towards using Strapi)
+- [] Come up with a new name
+
+<br/>
+
+### Installation Guidelines
 
 1. Fork this repo. Please be sure to use the current _main_ branch as your starting point:
 
@@ -33,39 +51,28 @@ git clone https://github.com/your-username/techspaces-uganda.git
 4. Install the project dependencies:
 
 ```bash
-npm i
-
-or
-
-yarn add
-
+npm install or yarn add
 ```
 
 5. Open in the text editor of your choice
 6. Create New Branch:
 
 ```bash
-
    cd techspaces-uganda
    git branch new-branch
    git checkout new-branch
-
 ```
 
 7. Make your edits locally:
 
 ```bash
-
    git add -A
-
 ```
 
 8. Commit the changes:
 
 ```bash
-
    git commit -m "Commit Message Here"
-
 ```
 
 9. Submit a pull request:
